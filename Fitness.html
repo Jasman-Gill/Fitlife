@@ -9,7 +9,8 @@
     <title>Fitness</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+    <link rel="stylesheet" href="Fitness.css">
+    <script src="Fitness.js"></script>
 </head>
 
 <body>
@@ -18,10 +19,10 @@
             <h1>FitLife</h1>
         </div>
         <ul>
-            <li><a href="#home" class="active">Home</a></li>
-            <li><a href="#workouts">Workouts</a></li>
-            <li><a href="#nutrition">Nutrition</a></li>
-            <li><a href="Contact-Us.html">Contact</a></li>
+            <li><a href="#home" id="link1">Home</a></li>
+            <li><a href="#workouts" id="link2">Workouts</a></li>
+            <li><a href="#nutrition" id="link3">Nutrition</a></li>
+            <li><a href="Contact-Us.html" id="">Contact</a></li>
         </ul>
     </nav>
 
@@ -178,6 +179,15 @@
             <p>&copy; 2024 FitLife. All Rights Reserved.</p>
         </div>
     </footer>
+
+    <div class="promo-popup" id="promoPopup">
+        <div class="promo-popup-content">
+            <span class="promo-popup-close" id="closePopup">&times;</span>
+            <h2>Special Promotional Offer!</h2>
+            <p>Get 20% off on your first purchase! Hurry, offer ends soon.</p>
+            <button class="promo-popup-btn">Claim Offer</button>
+        </div>
+    </div>
 
 </body>
 
