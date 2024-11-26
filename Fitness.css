@@ -484,3 +484,75 @@ footer {
 }
 
 
+/* Pop-up Modal styling */
+.promo-popup {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Black with transparency */
+}
+
+/* Modal content box */
+.promo-popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Close button for the pop-up */
+.promo-popup-close {
+    color: #333;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+}
+
+/* Styling the headline */
+.promo-popup h2 {
+    font-size: 22px;
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Styling the paragraph */
+.promo-popup p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Button to claim the offer */
+.promo-popup-btn {
+    background-color: #f4b400; /* Use consistent theme color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.promo-popup-btn:hover {
+    background-color: #e09a00; /* Darken on hover */
+}
+
+/* Ensure content in the body does not overflow */
+body {
+    overflow-x: hidden;
+}
+
+
